@@ -24,7 +24,7 @@ public class TestSorting {
 			int[] orderedArray = generateOrdered(n);
 			int[] randomArray = generateRandom(n);
 			int[] copy;
-	/*
+
 			// Insertion sort tests
 			testInsertionSort(orderedArray, true);
 			copy = copyArray(randomArray);
@@ -34,7 +34,7 @@ public class TestSorting {
 			testObjectBasedHeapSort(orderedArray, true);
 			copy = copyArray(randomArray);
 			testObjectBasedHeapSort(copy, false);
-			 */
+
 			// In place heap sort tests
 			testInPlaceHeapSort(orderedArray, true);
 			copy = copyArray(randomArray);
